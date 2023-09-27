@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AssassinSoundBank.bnk" />
+    <None Remove="assassin_projectiles" />
+    <None Remove="Modules\Characters\Henry.cs~RF6221a098.TMP" />
+    <None Remove="ror2assassin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AssassinSoundBank.bnk" />
+    <EmbeddedResource Include="assassin_projectiles" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="BepInEx.Core" Version="5.4.19" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="1.2.1-r.1" />
+		<PackageReference Include="UnityEngine.Modules" Version="2019.4.26" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <EmbeddedResource Include="ror2assassin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AncientScepter">
+      <HintPath>..\libs\AncientScepter.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomEmotesAPI">
+      <HintPath>..\libs\CustomEmotesAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MMHOOK_RoR2">
+      <HintPath>..\libs\MMHOOK_RoR2.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Core">
+      <HintPath>..\libs\R2API.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.DamageType">
+      <HintPath>..\libs\R2API.DamageType.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Dot">
+      <HintPath>..\libs\R2API.Dot.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Items">
+      <HintPath>..\libs\R2API.Items.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Language">
+      <HintPath>..\libs\R2API.Language.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Prefab">
+      <HintPath>..\libs\R2API.Prefab.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Sound">
+      <HintPath>..\libs\R2API.Sound.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API.Unlockable">
+      <HintPath>..\libs\R2API.Unlockable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if &quot;$(Username)&quot; == &quot;Bee_Snow&quot; copy &quot;$(TargetPath)&quot; &quot;C:\Users\Bee_Snow\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\DevPack\BepInEx\plugins&quot;" />
+  </Target>
+
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CA792EE3-409C-4B3C-AFF0-BD4C3180FDBD}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{CA792EE3-409C-4B3C-AFF0-BD4C3180FDBD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="sn_AssassinBottleBreak" ID="{5661A1D0-7A45-48F6-923A-19E87E842B54}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AssassinSoundBank" ID="{FD7F3779-B12A-4E35-86BB-D54A32A274E9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ender_warp" ID="{A3400965-29A5-40CE-B67D-37E68E17C051}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_dagger_impact_enemy" ID="{F8D73D8B-2A3E-44C0-BC42-41C507910805}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_knife_draw2" ID="{C0FD60C1-0032-45B3-AB8B-786797804F27}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_knife_draw1" ID="{B32F5F42-E56A-4959-971F-7BB43A476003}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bottle_break" ID="{370F4AF4-7C7C-4DAC-B1BA-9F13D950CC6C}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_dagger_sfx" ID="{0A12BC1F-E86A-4F77-B395-12B0BBB76D34}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_dagger_impact_ground" ID="{F9ACC7FE-1215-4FB3-86A7-8892C0CAE985}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_land_impact" ID="{25E36294-6A6C-4FF2-99C7-B50931C7D826}" WorkUnitID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1799594306">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1593723985" Language="SFX" Hash="1846353611">
+			<ObjectPath>\SoundBanks\Default Work Unit\AssassinSoundBank</ObjectPath>
+			<ShortName>AssassinSoundBank</ShortName>
+			<Path>AssassinSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1432862898" Name="Play_bottle_break" ObjectPath="\Events\Default Work Unit\Play_bottle_break">
+					<IncludedMemoryFiles>
+						<File Id="263305126" Language="SFX">
+							<ShortName>bottle_break.wav</ShortName>
+							<Path>SFX\bottle_break_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="589253524" Name="Play_dagger_impact_enemy" ObjectPath="\Events\Default Work Unit\Play_dagger_impact_enemy">
+					<IncludedMemoryFiles>
+						<File Id="128749710" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact1.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact1_05842A19.wem</Path>
+						</File>
+						<File Id="154791066" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact4.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact4_05842A19.wem</Path>
+						</File>
+						<File Id="447551069" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact6.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact6_05842A19.wem</Path>
+						</File>
+						<File Id="705351187" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact7.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact7_05842A19.wem</Path>
+						</File>
+						<File Id="740151716" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact5.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact5_05842A19.wem</Path>
+						</File>
+						<File Id="750504399" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact8.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact8_05842A19.wem</Path>
+						</File>
+						<File Id="798884210" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact3.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact3_05842A19.wem</Path>
+						</File>
+						<File Id="854159336" Language="SFX">
+							<ShortName>dagger_impact\enemy_impact\dagger_impact2.wav</ShortName>
+							<Path>SFX\dagger_impact\enemy_impact\dagger_impact2_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3850193945" Name="Play_dagger_impact_ground" ObjectPath="\Events\Default Work Unit\Play_dagger_impact_ground">
+					<IncludedMemoryFiles>
+						<File Id="61913055" Language="SFX">
+							<ShortName>dagger_impact\ground_impact\dagger_ground_impact4.wav</ShortName>
+							<Path>SFX\dagger_impact\ground_impact\dagger_ground_impact4_05842A19.wem</Path>
+						</File>
+						<File Id="147485542" Language="SFX">
+							<ShortName>dagger_impact\ground_impact\dagger_ground_impact2.wav</ShortName>
+							<Path>SFX\dagger_impact\ground_impact\dagger_ground_impact2_05842A19.wem</Path>
+						</File>
+						<File Id="259322292" Language="SFX">
+							<ShortName>dagger_impact\ground_impact\dagger_ground_impact1.wav</ShortName>
+							<Path>SFX\dagger_impact\ground_impact\dagger_ground_impact1_05842A19.wem</Path>
+						</File>
+						<File Id="920494270" Language="SFX">
+							<ShortName>dagger_impact\ground_impact\dagger_ground_impact3.wav</ShortName>
+							<Path>SFX\dagger_impact\ground_impact\dagger_ground_impact3_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1323361132" Name="Play_dagger_sfx" ObjectPath="\Events\Default Work Unit\Play_dagger_sfx">
+					<IncludedMemoryFiles>
+						<File Id="485607257" Language="SFX">
+							<ShortName>dagger_sfx\dagger_throw1.wav</ShortName>
+							<Path>SFX\dagger_sfx\dagger_throw1_05842A19.wem</Path>
+						</File>
+						<File Id="1042023746" Language="SFX">
+							<ShortName>dagger_sfx\dagger_throw2.wav</ShortName>
+							<Path>SFX\dagger_sfx\dagger_throw2_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3623482205" Name="Play_ender_warp" ObjectPath="\Events\Default Work Unit\Play_ender_warp">
+					<IncludedMemoryFiles>
+						<File Id="583044895" Language="SFX">
+							<ShortName>ender_warp.wav</ShortName>
+							<Path>SFX\ender_warp_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3277952659" Name="Play_knife_draw1" ObjectPath="\Events\Default Work Unit\Play_knife_draw1">
+					<IncludedMemoryFiles>
+						<File Id="701123000" Language="SFX">
+							<ShortName>MenuSounds\knife_draw1.wav</ShortName>
+							<Path>SFX\MenuSounds\knife_draw1_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3277952656" Name="Play_knife_draw2" ObjectPath="\Events\Default Work Unit\Play_knife_draw2">
+					<IncludedMemoryFiles>
+						<File Id="225130810" Language="SFX">
+							<ShortName>MenuSounds\knife_draw2.wav</ShortName>
+							<Path>SFX\MenuSounds\knife_draw2_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4143708110" Name="Play_land_impact" ObjectPath="\Events\Default Work Unit\Play_land_impact">
+					<IncludedMemoryFiles>
+						<File Id="845488663" Language="SFX">
+							<ShortName>land_impact.wav</ShortName>
+							<Path>SFX\land_impact_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3533804367" Language="SFX" Hash="867984674">
+			<ObjectPath>\SoundBanks\Default Work Unit\sn_AssassinBottleBreak</ObjectPath>
+			<ShortName>sn_AssassinBottleBreak</ShortName>
+			<Path>sn_AssassinBottleBreak.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

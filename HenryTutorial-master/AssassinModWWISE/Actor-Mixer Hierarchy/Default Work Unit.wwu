@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{844ADBD7-980B-47AE-906E-653F0C3A398B}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{844ADBD7-980B-47AE-906E-653F0C3A398B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX_Mixxer" ID="{6E14ED4D-0CE6-4285-BFB6-17B9753994A7}" ShortID="101661573">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{CEF107F0-07EB-495E-892F-1E8B119AFD70}" ShortID="379684550">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_SFX" ID="{1BCEBF43-C9CD-4E51-9B2F-FA6A258D34C5}" WorkUnitID="{BEE79A83-EAA6-44C5-88B8-33DBFC533698}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2CB33817-FBCE-4777-916F-4CC1DDC8F383}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="breakAtten" ID="{389327A2-AB18-4484-892F-0093B1EA3999}" WorkUnitID="{1398A919-279C-4A24-903F-1A36DA277289}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="bottle_break" ID="{59B9367D-231D-46C0-AE27-F1A1DE740518}" ShortID="911103238">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bottle_break" ID="{F13B61FF-C67E-4389-903C-C4DE9C880DC7}">
+									<Language>SFX</Language>
+									<AudioFile>bottle_break.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="263305126"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bottle_break" ID="{F13B61FF-C67E-4389-903C-C4DE9C880DC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ender_warp" ID="{AF6A6C94-A8C3-47A9-8029-AFDBF3D6D438}" ShortID="774750809">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ender_warp" ID="{E6F4410B-DC89-4535-ADC2-5051FBAACEA4}">
+									<Language>SFX</Language>
+									<AudioFile>ender_warp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583044895"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ender_warp" ID="{E6F4410B-DC89-4535-ADC2-5051FBAACEA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="dagger_sfx" ID="{15E42E51-F306-4A27-995C-F554938E8870}" ShortID="987482065">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="dagger_throw1" ID="{4D3F1A9D-1337-4A5C-916C-49D793CBBEEF}" ShortID="1029085891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_throw1" ID="{E6FFF772-1D8D-46A5-84CA-469322B1D132}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_sfx\dagger_throw1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485607257"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_throw1" ID="{E6FFF772-1D8D-46A5-84CA-469322B1D132}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_throw2" ID="{12B6F8E6-DD62-4EB6-A145-1B9749C77677}" ShortID="265488440">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_throw2" ID="{0889EA50-82BC-4DDD-BAF0-01872AF80975}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_sfx\dagger_throw2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042023746"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_throw2" ID="{0889EA50-82BC-4DDD-BAF0-01872AF80975}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="knife_draw1" ID="{58936062-09E1-4DFD-BC0E-CF54E78F87E1}" ShortID="934006871">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="knife_draw1" ID="{98CC92D8-72A6-4884-8E26-C22E8D58E447}">
+									<Language>SFX</Language>
+									<AudioFile>MenuSounds\knife_draw1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="701123000"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="knife_draw1" ID="{98CC92D8-72A6-4884-8E26-C22E8D58E447}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="knife_draw2" ID="{72549413-634C-4C04-BD73-7D46C198B85E}" ShortID="172239001">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="knife_draw2" ID="{AFDD1D2C-ACEB-4E32-8F3C-99CF549CFB66}">
+									<Language>SFX</Language>
+									<AudioFile>MenuSounds\knife_draw2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="225130810"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="knife_draw2" ID="{AFDD1D2C-ACEB-4E32-8F3C-99CF549CFB66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="dagger_impact_enemy" ID="{17B12A0C-CC0D-4887-8320-E99E816D7240}" ShortID="539497158">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="dagger_impact1" ID="{FA03EE2D-2E17-4272-B7F1-0DBFAE2939E1}" ShortID="423858932">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact1" ID="{DAC6BEF9-953B-4962-AB44-DCEF2243569A}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128749710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact1" ID="{DAC6BEF9-953B-4962-AB44-DCEF2243569A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact2" ID="{44B73EEB-C1BB-49FC-A639-B58E01D09711}" ShortID="31636371">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact2" ID="{A572E99F-4D6D-4306-A917-3386240E6C23}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854159336"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact2" ID="{A572E99F-4D6D-4306-A917-3386240E6C23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact3" ID="{711FFF90-BB7C-41BA-9A89-256CDD805C1F}" ShortID="49057925">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact3" ID="{D3283B05-2F95-4B5D-9603-A663AB9F8DCB}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="798884210"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact3" ID="{D3283B05-2F95-4B5D-9603-A663AB9F8DCB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact4" ID="{24EF4183-6FCA-40B8-A3A3-BAB9E21C2462}" ShortID="883723209">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact4" ID="{28B307FF-8F01-4866-9B71-6C8B80F40EA4}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="154791066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact4" ID="{28B307FF-8F01-4866-9B71-6C8B80F40EA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact5" ID="{B39A5532-02C1-456D-80D2-8062EB5B66B2}" ShortID="791392571">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact5" ID="{DA76EBB8-C317-4FF4-8914-971509B69328}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740151716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact5" ID="{DA76EBB8-C317-4FF4-8914-971509B69328}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact6" ID="{E9C79744-D10F-45C0-93F2-546C07EED4EB}" ShortID="628014874">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact6" ID="{96CC8905-5BF2-4399-B4AE-6ADFF06F1A98}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="447551069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact6" ID="{96CC8905-5BF2-4399-B4AE-6ADFF06F1A98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact7" ID="{9F7C592F-CE71-45B0-A92A-A9405B38B323}" ShortID="46045034">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact7" ID="{E6C13065-06C2-4D29-9B26-269A97B412BD}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705351187"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact7" ID="{E6C13065-06C2-4D29-9B26-269A97B412BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_impact8" ID="{CA28D472-7A50-4C61-9EB9-EE6F7729BB5A}" ShortID="168795450">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_impact8" ID="{474DEAC9-F165-406B-BF66-21186FA6680C}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\enemy_impact\dagger_impact8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="750504399"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_impact8" ID="{474DEAC9-F165-406B-BF66-21186FA6680C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="land_impact" ID="{00C06336-E982-48BD-AB0E-AC4E0201BAB9}" ShortID="985042394">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="land_impact" ID="{9CE15412-DF47-4F53-8247-3388F3B32CB4}">
+									<Language>SFX</Language>
+									<AudioFile>land_impact.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="845488663"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="land_impact" ID="{9CE15412-DF47-4F53-8247-3388F3B32CB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="dagger_impact_ground" ID="{C470D1C1-A420-452C-BD21-A249FA49A080}" ShortID="1037040621">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="dagger_ground_impact1" ID="{E6851D36-F505-43ED-A459-A5EA4EEACA1C}" ShortID="1025613323">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_ground_impact1" ID="{9A0FF278-B881-4DE9-8753-59CBAC1B6C00}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\ground_impact\dagger_ground_impact1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259322292"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_ground_impact1" ID="{9A0FF278-B881-4DE9-8753-59CBAC1B6C00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_ground_impact2" ID="{4B285883-476B-49BF-B070-6397A408C053}" ShortID="912011091">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_ground_impact2" ID="{F27FF8AF-CB56-4ED6-8400-721D61B6DD4B}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\ground_impact\dagger_ground_impact2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="147485542"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_ground_impact2" ID="{F27FF8AF-CB56-4ED6-8400-721D61B6DD4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_ground_impact3" ID="{80442465-76D6-4B8B-812C-A425EACF29CA}" ShortID="634412003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_ground_impact3" ID="{05146DE9-DCE9-4F50-A83B-A64709DF4D65}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\ground_impact\dagger_ground_impact3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920494270"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_ground_impact3" ID="{05146DE9-DCE9-4F50-A83B-A64709DF4D65}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dagger_ground_impact4" ID="{FB690515-DFD0-4871-B14F-B4C33E1B2590}" ShortID="381777263">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23E2D900-A91B-4844-A2CB-7CF1709BFD8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB40439D-CE1E-417F-B1A1-2BAD3D51904A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dagger_ground_impact4" ID="{2D00E11E-D58B-44E2-8FD1-059CC84304E0}">
+											<Language>SFX</Language>
+											<AudioFile>dagger_impact\ground_impact\dagger_ground_impact4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="61913055"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dagger_ground_impact4" ID="{2D00E11E-D58B-44E2-8FD1-059CC84304E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 2566128689
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 58dee3a55726fc891e1369be164eb72d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aa9c9bc04958756a4a20adb2e48cb088
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 261c50d8a80898e4ebf2e8e415ea6766, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 751bd37d2e55f5f448dbb0d97812d9ba, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssassinAssets/mdlDagger.prefab
+- Assets/AssassinAssets/mdlPoison.prefab
+- Assets/AssassinAssets/mdlAssassin.prefab
+- Assets/AssassinAssets/AssassinDisplay.prefab
+Dependencies: []
