@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AssassinMaskAimYaw
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/ROOT
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/ikHand.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/ikHand.L/elbow.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/ikHand.L/elbow.L/elbow.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/ikHand.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/ikHand.R/elbow.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/ikHand.R/elbow.R/elbow.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L/leg2.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L/leg2.L/Foot.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L/leg2.L/Foot.L/toe.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L/leg2.L/Foot.L/toe.L/toe.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L/Pouch
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.L/Pouch/Pouch_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R/KnifeHolster
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R/KnifeHolster/KnifeHolster_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R/leg2.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R/leg2.R/Foot.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R/leg2.R/Foot.R/toe.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/pelvis/leg1.R/leg2.R/Foot.R/toe.R/toe.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest
+    m_Weight: 1
+  - m_Path: Armature/ROOT/BASE/stomach/chest/neck
+    m_Weight: 1
+  - m_Path: Armature/ROOT/BASE/stomach/chest/neck/head
+    m_Weight: 1
+  - m_Path: Armature/ROOT/BASE/stomach/chest/neck/head/head_end
+    m_Weight: 1
+  - m_Path: Armature/ROOT/BASE/stomach/chest/neck/neck.001
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/neck/neck.001/neck.001_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.002.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.002.L/hand.009.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.002.L/hand.009.L/hand.008.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.002.L/hand.009.L/hand.008.L/hand.008.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.003.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.003.L/hand.011.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.003.L/hand.011.L/hand.010.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.003.L/hand.011.L/hand.010.L/hand.010.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.004.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.004.L/hand.013.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.004.L/hand.013.L/hand.012.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.004.L/hand.013.L/hand.012.L/hand.012.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.005.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.005.L/hand.006.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.005.L/hand.006.L/hand.006.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.007.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.007.L/hand.015.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.007.L/hand.015.L/hand.014.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/hand.007.L/hand.015.L/hand.014.L/hand.014.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/Knife.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.L/arm.L/arm2.L/hand.L/Knife.L/Knife.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.002.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.002.R/hand.009.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.002.R/hand.009.R/hand.008.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.002.R/hand.009.R/hand.008.R/hand.008.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.003.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.003.R/hand.011.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.003.R/hand.011.R/hand.010.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.003.R/hand.011.R/hand.010.R/hand.010.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.004.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.004.R/hand.013.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.004.R/hand.013.R/hand.012.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.004.R/hand.013.R/hand.012.R/hand.012.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.005.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.005.R/hand.006.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.005.R/hand.006.R/hand.006.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.007.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.007.R/hand.015.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.007.R/hand.015.R/hand.014.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/hand.007.R/hand.015.R/hand.014.R/hand.014.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/Knife.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/shoulder.R/arm.R/arm2.R/hand.R/Knife.R/Knife.R_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/stomach.001
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/chest/stomach.001/stomach.001_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/Potion1
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/Potion1/Potion1_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/Potion2
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/Potion2/Potion2_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/Potion3
+    m_Weight: 0
+  - m_Path: Armature/ROOT/BASE/stomach/Potion3/Potion3_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/legIk.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/legIk.L/knee.L
+    m_Weight: 0
+  - m_Path: Armature/ROOT/legIk.L/knee.L/knee.L_end
+    m_Weight: 0
+  - m_Path: Armature/ROOT/legIk.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/legIk.R/knee.R
+    m_Weight: 0
+  - m_Path: Armature/ROOT/legIk.R/knee.R/knee.R_end
+    m_Weight: 0
+  - m_Path: BaseMeshBKP
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.001
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.002
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.004
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.005
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.007
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.009
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.010
+    m_Weight: 0
+  - m_Path: BaseMeshBKP.012
+    m_Weight: 0
+  - m_Path: Cube
+    m_Weight: 0
+  - m_Path: Cube.006
+    m_Weight: 0
+  - m_Path: Cube.007
+    m_Weight: 0
+  - m_Path: Cube.010
+    m_Weight: 0
+  - m_Path: Cube.012
+    m_Weight: 0
+  - m_Path: Cylinder.003
+    m_Weight: 0

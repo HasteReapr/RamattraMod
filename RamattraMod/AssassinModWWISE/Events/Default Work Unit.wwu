@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D6A2874D-769D-4E42-85AC-E055004B27BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_dagger_sfx" ID="{0A12BC1F-E86A-4F77-B395-12B0BBB76D34}">
+					<ChildrenList>
+						<Action Name="" ID="{F1B39EA2-35AF-4B42-AA57-8F730011A2EE}" ShortID="456516173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dagger_sfx" ID="{15E42E51-F306-4A27-995C-F554938E8870}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bottle_break" ID="{370F4AF4-7C7C-4DAC-B1BA-9F13D950CC6C}">
+					<ChildrenList>
+						<Action Name="" ID="{B0CC1F2D-34B3-448E-AC5B-E1D796F7FD85}" ShortID="916954064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bottle_break" ID="{59B9367D-231D-46C0-AE27-F1A1DE740518}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ender_warp" ID="{A3400965-29A5-40CE-B67D-37E68E17C051}">
+					<ChildrenList>
+						<Action Name="" ID="{0B3E2CED-B793-4A2B-84EA-6265AC60D90C}" ShortID="311132647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ender_warp" ID="{AF6A6C94-A8C3-47A9-8029-AFDBF3D6D438}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_knife_draw1" ID="{B32F5F42-E56A-4959-971F-7BB43A476003}">
+					<ChildrenList>
+						<Action Name="" ID="{6B27D664-1B6F-4F5C-A3FF-2C03B08828EA}" ShortID="835549747">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="knife_draw1" ID="{58936062-09E1-4DFD-BC0E-CF54E78F87E1}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_knife_draw2" ID="{C0FD60C1-0032-45B3-AB8B-786797804F27}">
+					<ChildrenList>
+						<Action Name="" ID="{5DD65C59-B5EC-4E7A-BA20-1EA792F9C844}" ShortID="810950910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="knife_draw2" ID="{72549413-634C-4C04-BD73-7D46C198B85E}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_land_impact" ID="{25E36294-6A6C-4FF2-99C7-B50931C7D826}">
+					<ChildrenList>
+						<Action Name="" ID="{EE39B402-8AD0-428B-98A1-CA86D8FFA83A}" ShortID="434398224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="land_impact" ID="{00C06336-E982-48BD-AB0E-AC4E0201BAB9}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_dagger_impact_enemy" ID="{F8D73D8B-2A3E-44C0-BC42-41C507910805}">
+					<ChildrenList>
+						<Action Name="" ID="{C283AF7A-9863-4540-9467-F11C4F0F715C}" ShortID="860225210">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dagger_impact_enemy" ID="{17B12A0C-CC0D-4887-8320-E99E816D7240}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_dagger_impact_ground" ID="{F9ACC7FE-1215-4FB3-86A7-8892C0CAE985}">
+					<ChildrenList>
+						<Action Name="" ID="{8A1DDA7F-93F4-4468-8002-0E19E4B6FC31}" ShortID="1019189926">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dagger_impact_ground" ID="{C470D1C1-A420-452C-BD21-A249FA49A080}" WorkUnitID="{844ADBD7-980B-47AE-906E-653F0C3A398B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

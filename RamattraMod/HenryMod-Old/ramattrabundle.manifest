@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 1786376136
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d636004af6083b2959c820ca92e84333
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a1de54c6ea6ccc44d3e34ef1d94ab5b4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 261c50d8a80898e4ebf2e8e415ea6766, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RamattraAssets/Materials/rammyBodyMtrl.mat
+- Assets/RamattraAssets/Materials/rammyClothMtrl.mat
+- Assets/RamattraAssets/Materials/rammyRobeMtrl.mat
+- Assets/RamattraAssets/RamattraDisplay.prefab
+- Assets/RamattraAssets/mdlRamattra.prefab
+Dependencies: []

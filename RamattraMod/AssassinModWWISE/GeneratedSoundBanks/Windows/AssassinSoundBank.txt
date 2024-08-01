@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	589253524	Play_dagger_impact_enemy			\Default Work Unit\Play_dagger_impact_enemy	
+	1323361132	Play_dagger_sfx			\Default Work Unit\Play_dagger_sfx	
+	1432862898	Play_bottle_break			\Default Work Unit\Play_bottle_break	
+	3277952656	Play_knife_draw2			\Default Work Unit\Play_knife_draw2	
+	3277952659	Play_knife_draw1			\Default Work Unit\Play_knife_draw1	
+	3623482205	Play_ender_warp			\Default Work Unit\Play_ender_warp	
+	3850193945	Play_dagger_impact_ground			\Default Work Unit\Play_dagger_impact_ground	
+	4143708110	Play_land_impact			\Default Work Unit\Play_land_impact	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	61913055	dagger_ground_impact4	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\ground_impact\dagger_ground_impact4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_ground\dagger_ground_impact4		4660
+	128749710	dagger_impact1	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact1		11398
+	147485542	dagger_ground_impact2	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\ground_impact\dagger_ground_impact2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_ground\dagger_ground_impact2		4534
+	154791066	dagger_impact4	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact4_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact4		10431
+	225130810	knife_draw2	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\MenuSounds\knife_draw2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\knife_draw2		7461
+	259322292	dagger_ground_impact1	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\ground_impact\dagger_ground_impact1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_ground\dagger_ground_impact1		3561
+	263305126	bottle_break	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\bottle_break_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\bottle_break		22222
+	447551069	dagger_impact6	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact6_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact6		10033
+	485607257	dagger_throw1	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_sfx\dagger_throw1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_sfx\dagger_throw1		2124
+	583044895	ender_warp	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\ender_warp_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\ender_warp		19478
+	701123000	knife_draw1	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\MenuSounds\knife_draw1_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\knife_draw1		7029
+	705351187	dagger_impact7	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact7_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact7		12639
+	740151716	dagger_impact5	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact5_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact5		15565
+	750504399	dagger_impact8	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact8_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact8		17812
+	798884210	dagger_impact3	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact3		14109
+	845488663	land_impact	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\land_impact_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\land_impact		5642
+	854159336	dagger_impact2	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\enemy_impact\dagger_impact2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_enemy\dagger_impact2		14070
+	920494270	dagger_ground_impact3	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_impact\ground_impact\dagger_ground_impact3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_impact_ground\dagger_ground_impact3		5045
+	1042023746	dagger_throw2	C:\Users\Bee_Snow\Documents\Assassin ROR2 Setup\HenryTutorial-master\AssassinModWWISE\.cache\Windows\SFX\dagger_sfx\dagger_throw2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixxer\dagger_sfx\dagger_throw2		1944
+
